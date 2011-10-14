@@ -1,0 +1,17 @@
+1. Install django-backup from git@github.com:allanlei/django-backup.git
+
+2. Setup Email settings
+
+    (Example)
+    EMAIL_HOST = ''
+    EMAIL_HOST_USER = ''
+    EMAIL_HOST_PASSWORD = ''
+    EMAIL_PORT = 587
+    EMAIL_SUBJECT_PREFIX = ''
+    EMAIL_USE_TLS = True
+
+3. Run backup command
+
+    Email to abc@abc.com and xyz@abc.com    python manage.py backup_database abc@abc.com xyz@abc.com
+    Write to file           python manage.py backup_database --output file
+    Outout to stdout        python manage.py backup_database --output stdout
