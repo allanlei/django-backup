@@ -1,0 +1,7 @@
+include README
+include LICENSE
+include MANIFEST
+
+graft backup
+recursive-include backup *.py *.html
+recursive-include example *.py *.html

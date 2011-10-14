@@ -1,0 +1,5 @@
+To use PisaPDFView:
+    Install pisa
+
+To use WebkitPDFView:
+    Install the wkhtmltopdf binary
